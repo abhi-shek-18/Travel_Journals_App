@@ -1,0 +1,48 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../src/assets/images/bg_img4.jpg') no-repeat center center;
+  background-size: cover; /* Ensures the image covers the entire container */
+  color: rgb(30, 32, 66);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+  
+  .landing-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .landing-description {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .landing-button {
+    background-color: #23b1d1;
+    color: #1b3346;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .landing-button:hover {
+    background-color: #4682b4;
+    color: white;
+    transform: scale(1.1);
+  }
+  
